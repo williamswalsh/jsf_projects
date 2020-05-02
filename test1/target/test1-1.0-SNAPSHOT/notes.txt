@@ -1,0 +1,14 @@
+Annotations:
+@ManagedBean       Object creation is handled by JSF framework
+@RequestScoped     Object with this annotation exist for the duration(time scope) of the request
+
+#{webTimeBean.time}     -> Calls getTime method
+
+http://localhost:8080/<project_name>
+http://localhost:8080/test1
+
+Netbeans
+f6          Execute app
+f5 + ctrl   Execute app in debug mode
+
+
