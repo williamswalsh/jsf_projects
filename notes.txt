@@ -12,3 +12,18 @@ f6          Execute app
 f5 + ctrl   Execute app in debug mode
 
 
+
+
+
+
+
+
+WebService
+
+@WebService()
+@WebParam(name="name")
+
+
+
+WS Tester - http://localhost:8080/WelcomeSOAP/WelcomeSOAP?Tester
+WSDL File - http://localhost:8080/WelcomeSOAP/WelcomeSOAP?WSDL
