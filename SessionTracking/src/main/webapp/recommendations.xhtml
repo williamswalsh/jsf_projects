@@ -9,7 +9,7 @@
     <h:body>
          <h1>Book Recommendations</h1>
          <ul>
-             <ui:repeat value="{selectionsBean.selections}" var="book">
+             <ui:repeat value="#{selectionsBean.selections}" var="book">
                <li>#{book}</li>
            </ui:repeat>
          </ul>
